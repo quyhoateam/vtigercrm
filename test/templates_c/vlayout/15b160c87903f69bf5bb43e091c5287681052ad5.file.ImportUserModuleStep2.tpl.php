@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2017-02-10 07:52:40
+<?php /* Smarty version Smarty-3.1.7, created on 2017-03-13 04:13:11
          compiled from "E:\A_project\vtigercrm\includes\runtime/../../layouts/vlayout\modules\Settings\ModuleManager\ImportUserModuleStep2.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12755589d714805bd04-61842976%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:520858c61c57de1eb7-94997712%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12755589d714805bd04-61842976',
+  'nocache_hash' => '520858c61c57de1eb7-94997712',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_589d714829039',
+  'unifunc' => 'content_58c61c5813eca',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_589d714829039')) {function content_589d714829039($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58c61c5813eca')) {function content_58c61c5813eca($_smarty_tpl) {?>
 <div class="container-fluid" id="importModules"><div><div class="row-fluid"><div id="vtlib_modulemanager_import_div"><?php if ($_smarty_tpl->tpl_vars['MODULEIMPORT_FAILED']->value!=''){?><div class="span10"><b><?php echo vtranslate('LBL_FAILED',$_smarty_tpl->tpl_vars['QUALIFIED_MODULE']->value);?>
 </b></div><div class="span10"><?php if ($_smarty_tpl->tpl_vars['VERSION_NOT_SUPPORTED']->value=='true'){?><font color=red><b><?php echo vtranslate('LBL_VERSION_NOT_SUPPORTED',$_smarty_tpl->tpl_vars['QUALIFIED_MODULE']->value);?>
 </b></font><?php }else{ ?><?php if ($_smarty_tpl->tpl_vars['MODULEIMPORT_FILE_INVALID']->value=="true"){?><font color=red><b><?php echo vtranslate('LBL_INVALID_FILE',$_smarty_tpl->tpl_vars['QUALIFIED_MODULE']->value);?>

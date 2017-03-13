@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2017-02-10 04:49:06
+<?php /* Smarty version Smarty-3.1.7, created on 2017-03-13 03:53:36
          compiled from "E:\A_project\vtigercrm\includes\runtime/../../layouts/vlayout\modules\Users\SystemSetup.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16355589d464297bac3-71045917%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:849458c617c0bb2f97-54580989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16355589d464297bac3-71045917',
+  'nocache_hash' => '849458c617c0bb2f97-54580989',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_589d4642b2ede',
+  'unifunc' => 'content_58c617c0c74ac',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_589d4642b2ede')) {function content_589d4642b2ede($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58c617c0c74ac')) {function content_58c617c0c74ac($_smarty_tpl) {?>
 <html lang="en"><head><title>Vtiger CRM Setup</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link REL="SHORTCUT ICON" HREF="layouts/vlayout/skins/images/favicon.ico"><link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css" type="text/css" media="screen" /><link rel="stylesheet" href="libraries/bootstrap/css/bootstrap-responsive.css" type="text/css" media="screen"><style type="text/css">
                     body{
                         font-family: "Lucida Grande", Tahoma, Verdana;

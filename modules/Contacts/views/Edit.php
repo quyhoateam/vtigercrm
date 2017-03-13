@@ -38,7 +38,7 @@ class Contacts_Edit_View extends Vtiger_Edit_View {
                 } 
 		$viewer->assign('SALUTATION_FIELD_MODEL', $salutationFieldModel);
 
-		// parent::process($request);
+		parent::process($request);
 	}
 
 }

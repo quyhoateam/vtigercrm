@@ -103,7 +103,7 @@ $upload_dir = 'cache/upload/';
 
 // maximum file size for uploaded files in bytes also used when uploading import files
 // upload_maxsize default value = 3000000
-$upload_maxsize = 3145728;
+$upload_maxsize = 3000000;
 
 // flag to allow export functionality
 // 'all' to allow anyone to use exports 
@@ -162,7 +162,7 @@ $default_user_is_admin = false;
 $disable_persistent_connections = false;
 
 //Master currency name
-$currency_name = 'Vietnam, Dong';
+$currency_name = 'USA, Dollars';
 
 // default charset
 // default charset default value = 'UTF-8' or 'ISO-8859-1'
@@ -186,10 +186,10 @@ $display_empty_home_blocks = false;
 $disable_stats_tracking = false;
 
 // Generating Unique Application Key
-$application_unique_key = '2bb0ea978bbdce4fbd8818e23a8466f2';
+$application_unique_key = '72b7f48815677690af602e35bcd898ae';
 
 // trim descriptions, titles in listviews to this value
-$listview_max_textlength = '40';
+$listview_max_textlength = 40;
 
 // Maximum time limit for PHP script execution (in seconds)
 $php_max_execution_time = 0;
