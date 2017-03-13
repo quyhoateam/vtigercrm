@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2017-03-10 04:07:32
+<?php /* Smarty version Smarty-3.1.7, created on 2017-03-10 09:04:20
          compiled from "E:\A_project\vtigercrm\includes\runtime/../../layouts/vlayout\modules\Settings\ModuleDesigner\BlocksFields.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:787858c22684a622a2-85935192%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6f9f87f8e5cd4233636a6e49ee6a112af46311c8' => 
     array (
       0 => 'E:\\A_project\\vtigercrm\\includes\\runtime/../../layouts/vlayout\\modules\\Settings\\ModuleDesigner\\BlocksFields.tpl',
-      1 => 1489118841,
+      1 => 1489134854,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.7',
+  'unifunc' => 'content_58c22684a81e9',
   'variables' => 
   array (
     'QUALIFIED_MODULE' => 0,
     'MODULE' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_58c22684a81e9',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58c22684a81e9')) {function content_58c22684a81e9($_smarty_tpl) {?><table id="md-block-fields">
 <tr>

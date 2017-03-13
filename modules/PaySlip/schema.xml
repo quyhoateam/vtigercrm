@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_payslip</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_payslip` (
+    `payslipid` int(11) NOT NULL DEFAULT '0',
+      `payslip_name` VARCHAR(128) DEFAULT NULL,
+    `for_date` DATE DEFAULT NULL,
+    `user_role` INT(19) DEFAULT NULL,
+      PRIMARY KEY (`payslipid`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_payslipcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_payslipcf` (
+  `payslipid` int(11) NOT NULL,
+  PRIMARY KEY (`payslipid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>
